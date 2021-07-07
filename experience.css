@@ -45,6 +45,113 @@ position:fixed;
   box-shadow: 0 0 10px white;
   border-radius: 20px;
 }
+/*projects*/
+#Projects{
+  display: flex;
+  flex-direction: column;
+  background-color: rgba( 0, 0 ,0, 0.5);
+  height: 2180px;
+  justify-content: center;
+  align-items: center;
+  color:black;
+  font-size: 2rem;
+  padding-bottom: 200px;
+}
+#Projects::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url('img/project_bg.png') no-repeat center center/cover;
+  height: 2200px;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.8;
+}
+.heading{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 25%;
+}
+.head{
+  padding-top: 150px;
+  padding-bottom: 150px; 
+  color: black; 
+  font-size: 1.8rem;
+  font-family:Georgia, 'Times New Roman', Times, serif; 
+  text-align: center;
+  background-color: white;
+  padding: 10px 10px 10px 10px;
+  border-radius: 25px;
+  border: 1px solid black;
+}
+.lc_text p{
+  font-family: century;
+  font-size: 1rem;
+  color: black;
+  font-weight: bolder;
+}
+.rows{
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.boxes{
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  height: 300px;
+  border: 1px solid black;
+  margin: 20px;
+  padding-top: 10px;
+  padding-left: 10px;
+  align-items: right;
+  background:  rgb(255, 255, 255) ;
+  background-size: 100% 200%;
+  transition: all .8s;
+  color: rgb(0, 0, 0);
+  box-shadow: 10px 10px 10px  #161515;
+  border-radius: 10px;
+  transition: transform .2s;
+  box-shadow: 10px 10px 10px  #161515;
+}
+.boxes:hover{
+  background-position: left bottom;
+  color:rgb(0, 0, 0);
+  border: none;
+  box-shadow: 0 0 20px white;
+  transform: scale(1.1);
+}
+.boxes h1{
+  font-size: 1.9rem;
+}
+.boxes p{
+  padding: 10px;
+  text-align: center;
+  font-size: 1.2rem;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+
+
+
+
+
 
 /*footer*/
 
